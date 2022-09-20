@@ -8,7 +8,7 @@ if number < 0:
     number = -(number)
 
 lastDigit = number % 10
-if temp < 0
+if temp < 0:
     number = temp
     lastDigit = (lastDigit)
 
