@@ -13,7 +13,7 @@ if temp < 0:
     lastDigit = (lastDigit)
 
 if lastDigit > 5:
-    output = "and i greater than 5"
+    output = "and is greater than 5"
 elif lastDigit == 0:
     output = "and is 0"
 elif lastDigit < 6:
