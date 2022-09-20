@@ -2,19 +2,21 @@
 import random
 number = random.randint(-10000, 10000)
 
-tempNum = number
+temp = number
 
 if number < 0:
     number = -(number)
-    lastDigit = number % 10
-if tempNum < 0:
-    number = tempNum
-    lastDigit = -(lastDigit)
-if lastDigit > 5:
-    string = "and is greater than 5"
-elif lastDigit == 0:
-    string = "and is 0"
-elif lastDigit < 6:
-    string = "and is less than 6 and not 0"
 
-print("Last digit of {:d} is {:d}".format(number, lastDigit), string))
+lastDigit = number % 10
+if temp < 0
+    number = temp
+    lastDigit = (lastDigit)
+
+if lastDigit > 5:
+    output = "and i greater than 5"
+elif lastDigit == 0:
+    output = "and is 0"
+elif lastDigit < 6:
+    output = "and is less than 6 and not 0"
+
+print("Last digit of {:d} is {:d}".format(number, lastDigit), string)
